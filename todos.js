@@ -5,7 +5,7 @@ $("ul").on("click", "li", function(){
 	$(this).toggleClass("completed");
 });
 
-//Delete an element by clicking the X icon
+//Delete an element by clicking the trash icon
 $("ul").on("click", "span", function(){
 	//once clicked we need to remove entire <li> element
 	//we will use parent() to achieve this
